@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
-  fmt.Printf("%s", "Hello Bet20! 😁")
+  pathToConf := os.Args[1]
+  fmt.Printf("%s", pathToConf)
   
 }

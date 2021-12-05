@@ -1,3 +1,3 @@
-module bopen
+module bop
 
 go 1.17
